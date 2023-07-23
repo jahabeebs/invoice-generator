@@ -1,7 +1,7 @@
 import prisma from '../lib/prisma.js'
 import LineItemsCard from "../components/InvoiceCard";
 
-function LineItems(props) {
+export default function LineItems(props) {
     const lineItems = props.lineItems;
     return (
         <div>
